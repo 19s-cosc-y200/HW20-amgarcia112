@@ -1,0 +1,32 @@
+Project Name: Homework 20 HOE 6.1-6.3
+Author: Alyssa Garcia
+Last Modified: May 2 2019
+
+1. Write the CSS for an id with the following attributes: float to the left of the page, light tan background, Verdana or sans-serif large font, and 20 pixels of padding.
+
+#id { float: left;
+	background-color: F5F5DC
+	font-family: verdana, sans-serif;
+	padding: 20px;
+}
+
+2. Write the CSS to configure a class that will produce a headline with a dotted line underneath it. Choose a color that you like for the text and dotted line.
+
+CSS
+
+.headline { border-bottom: dotted #FF0000;
+	color: #0000FF
+	}
+
+HTML
+
+<h1 class="headline"> This headline uses the headline class to display a red dotted line underneath blue text.</h1>
+
+3. Write the CSS for an id that will be absolutely positioned on a page 20 pixels from the top and 40 pixels from the right. This area should have a light gray background and a solid border.
+
+#id { position: absolute;
+	top: 20px;
+	right: 40px;
+	background-color: #D3D3D3
+	border: solid;
+}
